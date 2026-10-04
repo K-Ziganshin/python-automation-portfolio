@@ -1,0 +1,28 @@
+# secrets - never commit
+.env
+*.env
+!.env.example
+credentials.json
+token.json
+client_secret*.json
+*.pem
+*.key
+
+# runtime data
+seen_ids.txt
+chrome_profile/
+Chrome_profile/
+
+# python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+
+# os / ide
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
